@@ -3,7 +3,7 @@
 //  TweetsFrom
 //
 //  Created by Sam Soffes on 3/22/10.
-//  Copyright Tasteful Works 2010. All rights reserved.
+//  Copyright 2010 Sam Soffes. All rights reserved.
 //
 
 #import "TweetsFromAppDelegate.h"
