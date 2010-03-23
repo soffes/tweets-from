@@ -12,8 +12,8 @@
 @interface SSMapAnnotation : NSObject <MKAnnotation> {
 
 	CLLocationCoordinate2D _coordinate;
-    NSString * _title;
-    NSString * _subtitle;
+	NSString * _title;
+	NSString * _subtitle;
 }
 
 @property (nonatomic, assign) CLLocationCoordinate2D coordinate;

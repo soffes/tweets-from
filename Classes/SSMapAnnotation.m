@@ -49,7 +49,7 @@
 - (void)dealloc {
 	[_title release];
 	[_subtitle release];
-    [super dealloc];
+	[super dealloc];
 }
 
 
