@@ -9,15 +9,25 @@
 #import "TweetsFromAppDelegate.h"
 #import "RootViewController.h"
 
-
 @implementation TweetsFromAppDelegate
 
 @synthesize window;
 @synthesize navigationController;
 
+#pragma mark -
+#pragma mark NSObject
+#pragma mark -
+
+- (void)dealloc {
+	[navigationController release];
+	[window release];
+	[super dealloc];
+}
+
 
 #pragma mark -
-#pragma mark Application lifecycle
+#pragma mark UIApplicationDelegate
+#pragma mark -
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     // Override point for customization after app launch    
@@ -27,21 +37,4 @@
 	return YES;
 }
 
-
-- (void)applicationWillTerminate:(UIApplication *)application {
-	// Save data if appropriate
-}
-
-
-#pragma mark -
-#pragma mark Memory management
-
-- (void)dealloc {
-	[navigationController release];
-	[window release];
-	[super dealloc];
-}
-
-
 @end
-

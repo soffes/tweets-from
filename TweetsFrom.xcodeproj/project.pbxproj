@@ -34,6 +34,7 @@
 		B248532311585AFD009B3579 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B248532211585AFD009B3579 /* libz.dylib */; };
 		B248535411585BF1009B3579 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B248535311585BF1009B3579 /* Icon.png */; };
 		B248536111585D77009B3579 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B248536011585D77009B3579 /* Default.png */; };
+		B24853C711586F4D009B3579 /* SSMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = B24853C611586F4D009B3579 /* SSMapAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,8 @@
 		B248532211585AFD009B3579 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		B248535311585BF1009B3579 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		B248536011585D77009B3579 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B24853C511586F4D009B3579 /* SSMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSMapAnnotation.h; sourceTree = "<group>"; };
+		B24853C611586F4D009B3579 /* SSMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSMapAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				28C286E00D94DF7D0034E888 /* RootViewController.m */,
 				1D3623240D0F684500981E51 /* TweetsFromAppDelegate.h */,
 				1D3623250D0F684500981E51 /* TweetsFromAppDelegate.m */,
+				B24853C511586F4D009B3579 /* SSMapAnnotation.h */,
+				B24853C611586F4D009B3579 /* SSMapAnnotation.m */,
 				B24852F211585AE5009B3579 /* Vendor */,
 			);
 			path = Classes;
@@ -285,6 +290,7 @@
 				B248531911585AE5009B3579 /* SBJsonBase.m in Sources */,
 				B248531A11585AE5009B3579 /* SBJsonParser.m in Sources */,
 				B248531B11585AE5009B3579 /* SBJsonWriter.m in Sources */,
+				B24853C711586F4D009B3579 /* SSMapAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
