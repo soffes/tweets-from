@@ -19,17 +19,12 @@
 #pragma mark -
 
 + (SSMapAnnotation *)mapAnnotationWithCoordinate:(CLLocationCoordinate2D)coordinate {
-	SSMapAnnotation *annotation = [[[self alloc] init] autorelease];
-	annotation.coordinate = coordinate;
-	return annotation;
+	return [self mapAnnotationWithCoordinate:coordinate title:nil subtitle:nil];
 }
 
 
 + (SSMapAnnotation *)mapAnnotationWithCoordinate:(CLLocationCoordinate2D)coordinate title:(NSString *)title {
-	SSMapAnnotation *annotation = [[[self alloc] init] autorelease];
-	annotation.coordinate = coordinate;
-	annotation.title = title;
-	return annotation;
+	return [self mapAnnotationWithCoordinate:coordinate title:title subtitle:nil];
 }
 
 
